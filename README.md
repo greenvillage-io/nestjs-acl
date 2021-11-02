@@ -1,12 +1,5 @@
 # Nestjs ACL
 
-[![Actions Status](https://github.com/Pop-Code/nestjs-acl/workflows/CI/badge.svg)](https://github.com/Pop-Code/nestjs-acl/actions)
-[![codecov](https://codecov.io/gh/Pop-Code/nestjs-acl/branch/master/graph/badge.svg)][codecov]
-[![NPM Downloads](https://img.shields.io/npm/dm/nestjs-acl.svg?style=flat)][npmchart]
-![node](https://img.shields.io/node/v/nestjs-acl)
-![npm (tag)](https://img.shields.io/npm/v/nestjs-acl/latest)
-![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/nestjs-console/peer/@nestjs/core)
-
 ## Why the nestjs-acl module?
 
 The [nestjs-acl][npm] module purpose is to check several access rules at the same time, depending on the current context.  
@@ -182,12 +175,3 @@ export class MyProvider {
     }
 }
 ```
-
-### [API DOCUMENTATION][doclink]
-
-[npm]: https://www.npmjs.com/package/nestjs-acl
-[npmchart]: https://npmcharts.com/compare/nestjs-acl?minimal=true
-[ci]: https://circleci.com/gh/Pop-Code/nestjs-acl
-[codecov]: https://codecov.io/gh/Pop-Code/nestjs-acl
-[doclink]: https://pop-code.github.io/nestjs-acl
-[accesscontrol]: https://www.npmjs.com/package/commander
